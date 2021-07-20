@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color:#000;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    color: #f5f5f7;
+    
+}
+.name {
+    font-size: 96px;
+    margin-top: 50px;
+
+}
+.bg-light {
+  background-color: rgba(22,22,23,0.8)!important;
+}
+.navbar {
+  width: 100%;
+}
+.navbar-brand img {
+  width: 28px;
+  margin-left: 80px;
+}
+.dropdown-item {
+  font-weight: bold;
+}
+.dropdown-item img {
+  width: 30px;
+}
+.navbar-light .navbar-brand {
+  color: #f5f5f7;
+}
+.nav-link {
+  margin-left: 100px;
+}
+.navbar-light .navbar-nav .active> .nav-link {
+  color: #f5f5f7;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #f5f5f7;
+  font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-item {
+  margin-left: 100px;
+  padding-inline: 60px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f5f5f7;
+}
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #f5f5f7;
+}
+.dropdown-menu {
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+  margin-left: 90px;
+}
+.div--index {
+  margin-top: 80px;
+  display: grid;
+  justify-items: center;
+}
+.row .div--index {
+  width: 90%;
+}
+.profesion {
+    font-weight: bold;
+    font-size: 32px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    --main-color: #ff5ea7;
+    --accent-color: #010fcb;
+    --final-color: #ff6530;
+    --angle: 225;
+    --blend: 1;
+    --fade1: 175%;
+    --fade2: 200%;
+    --fade3: 350%;
+    background-image: linear-gradient(
+        225deg
+        , #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);  
+}
+/*Footer Pages*/
+/*
+.copy--footer {
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer--pages {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(0, 0, 0);
+}*/
+/*About Us Desktop*/
+.about--us--pic {
+  width: 420px;
+  margin-left: 80px;
+}
+.about--us--section {
+  margin-top: 120px;
+  font-size: 18px;
+  text-align: justify;
+}
+.studies {
+  margin-top: 50px;
+}
+.studies--courses {
+  margin-top: 50px;
+}
+.course--name {
+  text-decoration: none;
+  color: #f5f5f7;
+  font-weight: bold;
+  font-size: 22px;
+}
+/*Portfolio Desktop */
+.project--page {
+  text-align: left;
+  margin-left: 140px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: #f5f5f7;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.card--1 {
+  margin-top: 80px;
+  margin-left: 200px;
+  background: transparent;
+}
+.card--2 {
+  margin-top: 80px;
+}
+.prueba {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.card-img-top {
+  box-shadow: 0px 0px 10px #fff;
+  width: 500px;
+  height: 240px;
+}
+
+.card-img-top:hover {
+  transition: 0.4s;
+  transform: scale(1.05)
+}
+.centrotp {
+  text-decoration: none;
+}
+.card-title {
+  color: #f5f5f7;
+  font-weight: bold;
+}
+.card-text--1 {
+  color: rgb(113, 113, 247);
+  font-weight: bold;
+  font-size: 18px;
+}
+.carousel-inner {
+  width: 1000px;
+}
+/*Contact*/
+.contact--name {
+  font-family: 'Josefin Slab', serif;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+/*Barra parpadeando*/
+
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+@media only screen and (max-width: 760px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.navbar-brand img {
+  width: 25px;
+  margin-left: 40px;
+}
+h1 {
+  width: 88%;
+  font-size: 50px;
+  font-weight: bold;
+  
+  padding-left: 16px;
+  padding-right: 25px;
+
+  margin-top: 100px;
+  color: #f5f5f7;
+}
+.profesion {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 21px;
+  text-align: center;
+}
+.navbar-light .navbar-toggler-icon {
+  margin-right: 80px;
+  background-image: url(/assets/Menu-Burguer.png);
+}
+/*Index Mobile*/
+/*About Us Mobile*/
+.about--title {
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+.about--us--pic {
+  width: 300px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+.about--us--section {
+  margin-top: 0px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+/*Portfolio Mobile*/
+.project--page {
+  font-size: 20px!important;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: #f5f5f7;
+}
+.cards {
+  width: 90%!important;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.card--1 {
+  margin-top: 30px;
+  margin-left: 0px;
+  background: transparent;
+}
+}
+/*Footer Mobile*/
+.copy--footer {
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer--pages {
+  margin-top: 200px;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(0, 0, 0);
+}
+/*Prueba de faq */
+
+

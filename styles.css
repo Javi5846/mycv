@@ -37,6 +37,7 @@ a {
   color: #53d9d1;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
   line-height: 1em;
+  text-decoration: none;
 }
 
 .link-one:hover {
@@ -101,6 +102,7 @@ a {
 .link-two {
   color: #f27b9b;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
+  text-decoration: none;
 }
 
 .link-two:hover {
@@ -164,6 +166,7 @@ a {
 
 .link-three {
   color: #eb7132;
+  text-decoration: none;
 }
 
 .link-three::after {
